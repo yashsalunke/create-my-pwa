@@ -1,0 +1,14 @@
+{
+  "name": "create-my-pwa",
+  "version": "0.1.0",
+  "description": "Generate React + Firebase PWAs with optional Android TWA configuration",
+  "type": "module",
+  "bin": { "create-my-pwa": "bin/cli.js" },
+  "scripts": { "start": "node bin/cli.js", "check": "node --check bin/cli.js && node --check src/cli.js", "test": "node --test", "prepublishOnly": "npm run check && npm test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "files": ["bin", "src", "README.md"],
+  "keywords": ["cli", "react", "vite", "pwa", "firebase"],
+  "repository": { "type": "git", "url": "https://github.com/your-user/create-my-pwa.git" },
+  "publishConfig": { "access": "public" }
+}
