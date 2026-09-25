@@ -15,7 +15,7 @@ if (args.includes("--help") || args.includes("-h")) {
   process.exit(0);
 }
 if (args.includes("--version") || args.includes("-v")) {
-  console.log("create-my-pwa 0.1.0");
+    console.log("create-my-pwa 0.1.1");
   process.exit(0);
 }
 

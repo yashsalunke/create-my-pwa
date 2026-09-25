@@ -11,5 +11,5 @@ test('shows help', async () => {
 
 test('shows version', async () => {
   const { stdout } = await run(process.execPath, ['bin/cli.js', '--version']);
-  assert.match(stdout, /create-my-pwa 0\.1\.0/);
+  assert.match(stdout, /create-my-pwa 0\.1\.1/);
 });
